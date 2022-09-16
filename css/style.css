@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+
+.header{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 1px rgba(27, 25, 25, 0.493);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.title{
+    display: inline-block;
+    margin: 5px;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    background: #05385a;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.main{
+    background: #032033;
+    width: 70%;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.profile-container{
+    display: flex;
+}
+
+.profile{
+    height: 170px;
+    display: flex;
+    width: 33%;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.493);
+}
+
+.profile-contact{
+    margin-left: 30px;
+    width: 60%;
+    color: #fff;
+    border-bottom: solid 1px rgba(255, 0, 0, 0.493);
+}
+
+.profile-info{
+    width: 130px;
+    height: 50px;
+    margin-top: 80px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.image-profile{
+    width: 100px;
+    margin: 20px;
+
+}
+
+.areas{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.profile-areas{
+    width: 30%;
+    margin-left: 20px;
+    height: 250px;
+}
+
+.rod{
+    border-right: solid 3px rgba(255, 0, 0, 0.493);
+}
+
+.profile-areas-titles{
+    color: #fff;
+}
+
+.profile-areas-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: rgb(185, 174, 174);
+}
+span{
+    margin-bottom: 10px;
+}
+
+.aside{ 
+    width: 25%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.proyect{
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(236, 232, 232);
+    height: 280px;
+}
+
+.proyect-image{
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.resume{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(236, 232, 232);
+}
+
+.proyect-title{
+    margin-bottom: 25px;
+}
+
+.proyect-button,
+.resume-button,
+.download-button{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0b5281;
+}
+
+.proyect-button:hover,
+.resume-button:hover,
+.download-button:hover{
+    background: #09466e;
+}
+
+
